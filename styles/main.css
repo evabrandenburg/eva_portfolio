@@ -9,10 +9,11 @@ background-size: 		cover;
 position:				relative;
 width:					100%;
 height:					100%;
-background-image:		url(background.jpg);
+margin:					auto;
 }
 
 body {
+	background-image:		url(background.jpg);
 
 }
 
@@ -33,6 +34,7 @@ body {
 	background-size:	100%;
 	height:				70px;
 	width:				200px;
+	margin-right:		50px;
 }
 
 .about {
@@ -40,20 +42,24 @@ body {
 	background-size:	100%;
 	height:				70px;
 	width:				200px;
+	float:				left;
+	margin-left:		100px;
 }
 
 .contact {
 	background-image:	url(contact.png);
 	background-size:	100%;
 	height:				70px;
-	width:				200px;
+	width:				220px;
+	margin:				auto;
 }
 
 .previousWork {
 	background-image:	url(previousWork.png);
 	background-size:	100%;
-	height:				70px;
-	width:				200px;
+	height:				90px;
+	width:				350px;
+	float:				right;
 }
 
 .top {
@@ -61,7 +67,6 @@ body {
 	overflow: 			hidden;
 	top:				0px;
 	position:			fixed;
-	margin-left:		-15px;
 	padding-left:		50px;
 	padding-right:		50px;
 	border-bottom-color: black;
