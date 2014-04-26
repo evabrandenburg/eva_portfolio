@@ -43,7 +43,8 @@ body {
 	height:				70px;
 	width:				200px;
 	float:				left;
-	margin-left:		100px;
+	margin-left:		210px;
+	margin-top:			220px;
 }
 
 .contact {
@@ -51,7 +52,8 @@ body {
 	background-size:	100%;
 	height:				70px;
 	width:				220px;
-	margin:				auto;
+	margin-left:		400px;
+	margin-top:			450px;
 }
 
 .previousWork {
