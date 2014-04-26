@@ -9,6 +9,7 @@ background-size: 		cover;
 position:				relative;
 width:					100%;
 height:					100%;
+background-image:		url(background.jpg);
 }
 
 body {
@@ -26,7 +27,6 @@ body {
 }
 
 .top {
- 	background-color: 	black;
 	width: 				100%;
 	overflow: 			hidden;
 	top:				0px;
@@ -74,31 +74,6 @@ nav {
 	overflow: 			hidden;
 }
 
-.info {
-
-	margin-top:			90px;
-	margin-bottom:		60px;
-	width:				30%;
-	margin-left:		55%;
-	margin-right:		30%;
-	border-radius:		2px;
-	background-color:	rgba(0, 0, 0, 0.49);
-	color:				white;
-	padding:			10px;
-}
-
-.contact {
-
-	margin-top:			170px;
-	margin-bottom:		100px;
-	width:				30%;
-	margin-left:		55%;
-	margin-right:		30%;
-	border-radius:		2px;
-	background-color:	rgba(0, 0, 0, 0.49);
-	color:				white;
-	padding:			10px;
-}
 
 .current a {
 	color:				gray;
@@ -106,21 +81,11 @@ nav {
 
 footer {
 	color:				gray;
-	background-color:	black;
 	height:				40px;
 	width:				100%;
 	bottom:				0px;
 	position:			fixed;
 	margin-left:		-15px;
-}
-
-.albums {
-	margin-top:			300px;
-}
-
-.videos {
-	margin-top:			175px;
-	margin-bottom:		135px;
 }
 
 .slide {
@@ -129,7 +94,7 @@ footer {
 	margin:			auto;
 	margin-bottom:	60px;
 	margin-top:		-30px;
-	background-color:	rgba(255, 255, 255, 0.30);
+	background-color:	rgba(255, 255, 255, 0.00);
 	color:			#11002B;
 	border-radius:  2px;
 	border:			2px solid;
