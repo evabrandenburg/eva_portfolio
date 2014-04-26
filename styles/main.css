@@ -1,1 +1,124 @@
 /* CURRENTLY IN: styles/main.css */
+
+.container {
+
+-webkit-background-size: cover;
+-moz-background-size: 	cover;
+-o-background-size: 	cover;
+background-size: 		cover;
+position:				relative;
+width:					100%;
+height:					100%;
+}
+
+body {
+	background:			black;
+	color:				white;
+}
+
+
+
+.title {
+	border-radius: 		1px;
+	font-size: 			50px;
+	margin:				auto;
+	color:				white;
+}
+
+.top {
+ 	background-color: 	black;
+	width: 				100%;
+	overflow: 			hidden;
+	top:				0px;
+	position:			fixed;
+	margin-left:		-15px;
+	padding-left:		50px;
+	padding-right:		50px;
+}
+
+ h1{
+	float: 				left;
+	padding: 			5px 30px;
+	color: 				white;
+	font-size: 			32px;
+}
+
+li {
+	float: 				left;
+	padding:			5px;
+}
+
+a { 
+	color:				white;
+	text-decoration:	none;
+	font-family: 		sans-serif;
+	-webkit-transition: color .25s linear;	
+}
+a:hover {
+	text-decoration:	none;
+	color:				gray;
+}
+
+p {
+	font-family:		sans-serif;
+}
+
+ul {
+	list-style-type: 	none;
+}
+
+nav {
+	padding: 			16px 30px;
+	float: 				right;
+	font-size: 			20px;
+	overflow: 			hidden;
+}
+
+.info {
+
+	margin-top:			90px;
+	margin-bottom:		60px;
+	width:				30%;
+	margin-left:		55%;
+	margin-right:		30%;
+	border-radius:		2px;
+	background-color:	rgba(0, 0, 0, 0.49);
+	color:				white;
+	padding:			10px;
+}
+
+.contact {
+
+	margin-top:			170px;
+	margin-bottom:		100px;
+	width:				30%;
+	margin-left:		55%;
+	margin-right:		30%;
+	border-radius:		2px;
+	background-color:	rgba(0, 0, 0, 0.49);
+	color:				white;
+	padding:			10px;
+}
+
+.current a {
+	color:				gray;
+}
+
+footer {
+	color:				gray;
+	background-color:	black;
+	height:				40px;
+	width:				100%;
+	bottom:				0px;
+	position:			fixed;
+	margin-left:		-15px;
+}
+
+.albums {
+	margin-top:			300px;
+}
+
+.videos {
+	margin-top:			175px;
+	margin-bottom:		135px;
+/* CURRENTLY IN: styles/main.css */
