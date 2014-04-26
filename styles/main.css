@@ -44,7 +44,8 @@ body {
 	width:				200px;
 	float:				left;
 	margin-left:		210px;
-	margin-top:			220px;
+	margin-top:			230px;
+	border:				2px solid black;
 }
 
 .contact {
@@ -54,6 +55,7 @@ body {
 	width:				220px;
 	margin-left:		400px;
 	margin-top:			450px;
+	border:				2px solid black;
 }
 
 .previousWork {
@@ -62,6 +64,9 @@ body {
 	height:				90px;
 	width:				350px;
 	float:				right;
+	margin-top:			-200px;
+	margin-right:		210px;
+	border:				2px solid black;
 }
 
 .top {
