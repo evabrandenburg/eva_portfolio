@@ -121,4 +121,22 @@ footer {
 .videos {
 	margin-top:			175px;
 	margin-bottom:		135px;
+}
+
+.slide {
+	width:			800px;
+	height:			350px;
+	margin:			auto;
+	margin-bottom:	60px;
+	margin-top:		-30px;
+	background-color:	rgba(255, 255, 255, 0.30);
+	color:			#11002B;
+	border-radius:  2px;
+	border:			2px solid;
+	border-color:	black;
+	overflow:		none;
+}
+
+
+
 /* CURRENTLY IN: styles/main.css */
