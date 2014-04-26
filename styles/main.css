@@ -1,7 +1,18 @@
 /* CURRENTLY IN: styles/main.css */
 
-.container {
 
+
+.controlArrow.next {
+	border-color: transparent transparent transparent #000;
+	display: none;
+}
+
+.controlArrow.prev {
+	border-color: transparent #000 transparent transparent;
+	color:			rgba(255, 255, 255, 0.00);
+	display: 		none;
+}
+.container {
 -webkit-background-size: cover;
 -moz-background-size: 	cover;
 -o-background-size: 	cover;
