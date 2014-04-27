@@ -1,7 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 
 
-
 .controlArrow.next {
 	border-color: transparent transparent transparent #000;
 	display: none;
@@ -164,6 +163,26 @@ footer {
 	margin-top:		180px;
 
 }
+
+@media (max-width: 480px) {
+.about {
+	margin:				10px auto;
+	float:				none;
+}
+
+.contact {
+	margin:				10px auto;
+	float:				none;
+}
+
+.previousWork {
+	margin:				10px auto;
+	float:				none;
+}
+
+}
+
+
 
 
 
