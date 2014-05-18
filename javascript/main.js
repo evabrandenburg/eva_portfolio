@@ -4,10 +4,13 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
+  	mode: 'fade',
+  	captions: true
   	minSlides: 1,
   	maxSlides: 1,
-  	slideWidth: 500,
+  	slideWidth: 700,
   	slideMargin: 10,
   	randomStart: true
 	});
 });
+
