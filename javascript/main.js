@@ -5,7 +5,8 @@ $(document).ready(function() {
 $(document).ready(function(){
   $('.bxslider').bxSlider({
   	mode: 'fade',
-  	captions: true
+  	adaptiveHeight: true,
+  	captions: true,
   	minSlides: 1,
   	maxSlides: 1,
   	slideWidth: 700,
