@@ -24,7 +24,7 @@ margin:					auto;
 
 body {
 	background-color:	black;
-	font-color:			black;
+	color:				white;
 
 }
 
@@ -34,7 +34,6 @@ body {
 	border-radius: 		1px;
 	font-size: 			50px;
 	margin:				auto;
-	background-image:	url(name.png);
 	background-size:	100%;
 	height:				150px;
 	width:				500px;
@@ -42,19 +41,14 @@ body {
 }
 
 .webDesign {
-	background-image:	url(webDesign.png);
-	background-size:	100%;
 	height:				70px;
 	width:				200px;
 	margin-right:		100px;
 }
 
 .about {
-	background-image:	url(about.png);
-	background-repeat:  no-repeat;
-	background-size:	100%;
-	height:				70px;
-	width:				200px;
+	font-size:			40px;
+	color:				white;
 	float:				left;
 	margin-left:		210px;
 	margin-top:			230px;
@@ -63,26 +57,17 @@ body {
 }
 
 .contact {
-	background-image:	url(contact.png);
-	background-repeat:  no-repeat;
-	background-size:	100%;
-	height:				70px;
-	width:				220px;
-	margin-left:		400px;
-	margin-top:			450px;
+	font-size:			40px;
+	float:				right;
+	color:				white;
 	border:				2px dashed #001CBA;
 	padding:			5px;
 }
 
 .previousWork {
-	background-image:	url(previousWork.png);
-	background-repeat:  no-repeat;
-	background-size:	100%;
-	height:				90px;
-	width:				350px;
-	float:				right;
-	margin-top:			-200px;
-	margin-right:		210px;
+	font-size:			40px;
+	color:				white;
+	margin:				auto;
 	border:				2px dashed #001CBA;
 }
 
