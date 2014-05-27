@@ -1,7 +1,9 @@
 /* CURRENTLY IN: styles/main.css */
 body {
 	background: url(background.jpg);
-	width:		100%;
+	background-repeat:	no-repeat;
+	background-size:  cover;
+	background-position: static;
 	color: white;
 	font-size: 20px;
 	font-family: "Terminal Dosis", sans-serif;
