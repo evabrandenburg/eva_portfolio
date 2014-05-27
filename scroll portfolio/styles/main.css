@@ -1,1 +1,43 @@
 /* CURRENTLY IN: styles/main.css */
+
+.wrapper div {
+	position: absolute;
+}
+
+.one { 
+	width: 800px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.two {
+	top: 740px;
+	left: 180px;
+	width: 440px;
+}
+
+.three {
+	top: 1510px;
+	left: 430px;
+	width: 400px;
+}
+
+.four {
+	top: 1540px;
+	left: 1600px;
+	width: 400px;
+}
+
+.five {
+	left: 2185px;
+	top: 660px;
+	width: 460px;
+	transform: rotate(-90deg) translateY(2.5em);
+}
+
+.five .upside-down {
+	font-size: 42px;
+	text-align: right;
+	transform: rotate(180deg) translateY(3em);
+}
