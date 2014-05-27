@@ -19,12 +19,13 @@ body {
 }
 
 .one { 
-	width: 800px;
+	width: 1364px;
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
+	top: 500px;
 	background: url(one.png);
-	height:		800px;
+	height:		1528px;
 
 }
 
