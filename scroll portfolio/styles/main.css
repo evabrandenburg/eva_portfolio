@@ -1,7 +1,20 @@
 /* CURRENTLY IN: styles/main.css */
+body {		
+	background-width:		100%;
+	background: url(background.jpg);
+	position:	fixed;
+	color: white;
+	font-size: 20px;
+	font-family: "Terminal Dosis", sans-serif;
+	text-shadow: 
+		1px 1px 0 transparent,
+		2px 2px 0 #101010;
+	overflow: hidden;
+}
+
 
 .wrapper div {
-	position: absolute;
+
 }
 
 .one { 
@@ -9,12 +22,15 @@
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
+	height:		500px;
+
 }
 
 .two {
 	top: 740px;
 	left: 180px;
 	width: 440px;
+	height:	500px;
 }
 
 .three {
