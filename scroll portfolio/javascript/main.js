@@ -27,14 +27,15 @@ function init() {
 		})
 		// Arc up while rotating
 		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
+		.rotate(4* Math.PI/2, {
+			name: "rotations-rotated"
+		})
 		// Line to 'rotations'.
 		.lineTo(2400, 750, {
 			name: "rotations"
 		})
 		// Rotate in place
-		.rotate(4* -Math.PI/2, {
-			name: "rotations-rotated"
-		})
+		
 	
 		// Arc and rotate back to the beginning.
 		.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
