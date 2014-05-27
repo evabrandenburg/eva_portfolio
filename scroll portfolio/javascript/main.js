@@ -7,9 +7,9 @@ function init() {
 		// Move to 'start' element
 		.moveTo(400, 50, {name: "start"})
 		// Line to 'description' element
-		.lineTo(400, 800, {name: "description"})
+		.lineTo(400, 1500, {name: "description"})
 		// Arc down and line to 'syntax'
-		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
+		.arc(400, 2000, 400, -Math.PI/2, Math.PI/2, true)
 		.lineTo(600, 1600, {
 			callback: function() {
 				highlight($(".settings"));
