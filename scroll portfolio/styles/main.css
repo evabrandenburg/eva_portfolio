@@ -23,6 +23,9 @@ body {
 	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
+	background: url(one.png);
+	height:		800px;
+
 }
 
 .two {
