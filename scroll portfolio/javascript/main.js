@@ -19,15 +19,15 @@ function init() {
 			name: "syntax"
 		})
 
-		.lineTo(1800, 1800, {
+		.lineTo(5000, 2100, {
 			callback: function() {
 				highlight($(".sp-scroll-handle"));
 			},
 			name: "scrollbar"
 		})
 		// Arc up while rotating
-		.arc(1800, 1000, 600, Math.PI/2, 0, true, {rotate: Math.PI/2 })
-		// Line to 'rotations'
+		.arc(5000, 1000, 600, Math.PI/2, -Math.PI/2, true, {rotate: Math.PI/2 })
+		// Line to 'rotations'.
 		.lineTo(2400, 750, {
 			name: "rotations"
 		})
