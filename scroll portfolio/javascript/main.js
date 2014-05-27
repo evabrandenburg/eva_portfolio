@@ -10,7 +10,8 @@ function init() {
 		.lineTo(400, 800, {name: "description"})
 		// Arc down and line to 'syntax'
 		.arc(400, 1500, 600, -Math.PI/2, Math.PI/2, true)
-		.arc(200, 1900, 200, Math.PI/2, -Math.PI/2, true)
+		.arc(400, 1800, 300, Math.PI/2, -Math.PI/2, true)
+		.arc(400, 1800, 300, -Math.PI/2, Math.PI/2, true)
 		.lineTo(600, 2100, {
 			callback: function() {
 				highlight($(".settings"));
@@ -18,7 +19,7 @@ function init() {
 			name: "syntax"
 		})
 
-		.lineTo(1750, 1600, {
+		.lineTo(1800, 1800, {
 			callback: function() {
 				highlight($(".sp-scroll-handle"));
 			},
