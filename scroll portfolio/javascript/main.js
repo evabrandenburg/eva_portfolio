@@ -26,13 +26,13 @@ function init() {
 			name: "scrollbar"
 		})
 		// Arc up while rotating
-		.arc(5000, 1000, 600, Math.PI/2, -Math.PI/2, true, {rotate: Math.PI/2 })
+		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
 		// Line to 'rotations'.
 		.lineTo(2400, 750, {
 			name: "rotations"
 		})
 		// Rotate in place
-		.rotate(3*Math.PI/2, {
+		.rotate(4* -Math.PI/2, {
 			name: "rotations-rotated"
 		})
 	
