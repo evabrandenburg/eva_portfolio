@@ -7,7 +7,7 @@ function init() {
 		// Move to 'start' element
 		.moveTo(400, 50, {name: "start"})
 		// Line to 'description' element
-		.lineTo(400, 800, {name: "description"})
+		.lineTo(400, 800, {name: "more"})
 		// Arc down and line to 'syntax'
 		.arc(400, 1500, 600, -Math.PI/2, Math.PI/2, true)
 		.arc(400, 1800, 300, Math.PI/2, -Math.PI/2, true)
@@ -23,7 +23,7 @@ function init() {
 			callback: function() {
 				highlight($(".sp-scroll-handle"));
 			},
-			name: "scrollbar"
+			name: "myPath"
 		})
 		// Arc up while rotating
 		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
@@ -44,16 +44,16 @@ function init() {
 	$(".wrapper").scrollPath({drawPath: true, wrapAround: true});
 
 	// Add scrollTo on click on the navigation anchors
-	$("nav").find("a").each(function() {
-		var target = $(this).attr("href").replace("#", "");
-		$(this).click(function(e) {
+		$(".more").click(function(e) {
 			e.preventDefault();
 
 			// Include the jQuery easing plugin (http://gsgd.co.uk/sandbox/jquery/easing/)
 			// for extra easing functions like the one below
-			$.fn.scrollPath("scrollTo", target, 1000, "easeInOutSine");
+			$.fn.scrollPath("scrollTo", "myPath", 1000, "easeInOutSine", function() {
+    			alert("Animation complete!")
+			});
 		});
-	});
+	};
 
 	/* ===================================================================== */
 
@@ -71,13 +71,7 @@ function init() {
 		e.preventDefault();
 	});
 
-	$.getJSON("http://cdn.api.twitter.com/1/urls/count.json?callback=?&url=http%3A%2F%2Fjoelb.me%2Fscrollpath",
-			function(data) {
-				if(data && data.count !== undefined) {
-					$(".follow .count").html("the " + ordinal(data.count + 1) + " kind person to");
-				}
-			});
-	}
+	
 
 
 function highlight(element) {

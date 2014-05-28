@@ -22,8 +22,8 @@ body {
 	width: 1009px;
 	text-align: center;
 	font-weight: bold;
-	background: url(one.png);
-	background-repeat: no-repeat;
+	background: url(one.png) 50% no-repeat;
+	background-position: ;
 	height:		1130px;	
 	top:		200px;
 
