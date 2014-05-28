@@ -19,20 +19,23 @@ body {
 }
 
 .one { 
-	width: 1364px;
+	width: 900px;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 500px;
 	background: url(one.png);
-	height:		1528px;	
+	height:		1008px;	
 	top:		200px;
 
 }
 
 .two {
-	top: 1800px;
-	left: 400px;
-	width: 440px;
+	top: 1000px;
+	left: -400px;
+	width: 1784px;
+	height: 1712px;
+	text-align: center;
+	padding-top: 750px;
+	background: url(two.png);
 }
 
 .three {
