@@ -5,7 +5,7 @@ function init() {
 
 	$.fn.scrollPath("getPath")
 		// Move to 'start' element
-		.moveTo(400, 50, {name: "start"})
+		.moveTo(400, 50, {name: "one"})
 		// Line to 'description' element
 		.lineTo(400, 800, {name: "more"})
 		// Arc down and line to 'syntax'
@@ -23,7 +23,7 @@ function init() {
 			callback: function() {
 				highlight($(".sp-scroll-handle"));
 			},
-			name: "myPath"
+			name: "three"
 		})
 		// Arc up while rotating
 		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
@@ -44,12 +44,18 @@ function init() {
 	$(".wrapper").scrollPath({drawPath: true, wrapAround: true});
 
 	// Add scrollTo on click on the navigation anchors
-		$(".more").click(function(e) {
+		$("#three").click(function(e) {
 			e.preventDefault();
 
-			// Include the jQuery easing plugin (http://gsgd.co.uk/sandbox/jquery/easing/)
-			// for extra easing functions like the one below
-			$.fn.scrollPath("scrollTo", "myPath", 1000, "easeInOutSine", function() {
+			$.fn.scrollPath("scrollTo", "three", 1000, "easeInOutSine", function() {
+    			alert("Animation complete!")
+			});
+		});
+
+		$("#one").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "one", 1000, "easeInOutSine", function() {
     			alert("Animation complete!")
 			});
 		});
