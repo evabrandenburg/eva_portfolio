@@ -16,7 +16,7 @@ function init() {
 			callback: function() {
 				highlight($(".settings"));
 			},
-			name: "syntax"
+			name: "two"
 		})
 
 		.lineTo(5000, 2100, {
@@ -47,8 +47,7 @@ function init() {
 		$("#three").click(function(e) {
 			e.preventDefault();
 
-			$.fn.scrollPath("scrollTo", "three", 1000, "easeInOutSine", function() {
-    			alert("Animation complete!")
+			$.fn.scrollPath("scrollTo", "three", 500, "easeInOutSine", function() {
 			});
 		});
 
@@ -56,7 +55,13 @@ function init() {
 			e.preventDefault();
 
 			$.fn.scrollPath("scrollTo", "one", 1000, "easeInOutSine", function() {
-    			alert("Animation complete!")
+			});
+		});
+
+		$("#two").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "two", 1000, "easeInOutSine", function() {
 			});
 		});
 	};
