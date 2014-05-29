@@ -42,8 +42,8 @@ body {
 }
 
 .three {
-	top: 1900px;
-	left: 2000px;
+	top: 1950px;
+	left: 3000px;
 	width: 2000px;
 	height:	300px;
 	text-align: right;
@@ -70,13 +70,6 @@ body {
 	transform: rotate(180deg) translateY(3em);
 }
 
-
-nav a {
-	display: block;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	border: none;
-	text-align: center;
-	transition: 0.25s;
+nav {
+	z-index: 100;
 }
