@@ -5,7 +5,7 @@ function init() {
 
 	$.fn.scrollPath("getPath")
 		// Move to 'start' element
-		.moveTo(400, 50, {name: "one"})
+		.moveTo(400, 1000, {name: "one"})
 		// Line to 'description' element
 		.lineTo(400, 800, {name: "more"})
 		// Arc down and line to 'syntax'
@@ -28,11 +28,11 @@ function init() {
 		// Arc up while rotating
 		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
 		.rotate(4* Math.PI/2, {
-			name: "rotations-rotated"
+			name: "four"
 		})
 		// Line to 'rotations'.
 		.lineTo(2400, 750, {
-			name: "rotations"
+			name: "five"
 		})
 		// Rotate in place
 		
@@ -62,6 +62,20 @@ function init() {
 			e.preventDefault();
 
 			$.fn.scrollPath("scrollTo", "two", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#four").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "four", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#five").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "five", 1000, "easeInOutSine", function() {
 			});
 		});
 	};
