@@ -23,7 +23,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	padding-top:	500px;
-	background: url(one.png) 50% no-repeat;
+	/*background: url(one.png) 50% no-repeat;*/
 	background-position: ;
 	height:		1400px;	
 	top:		200px;
@@ -37,7 +37,7 @@ body {
 	height: 1250px;
 	text-align: center;
 	padding-top: 750px;
-	background: url(two.png);
+	/*background: url(two.png);*/
 	background-repeat: no-repeat;
 	z-index: -1;
 }
@@ -48,7 +48,7 @@ body {
 	width: 4500px;
 	height:	400px;
 	text-align: right;
-	background: url(three.png);
+	/*background: url(three.png);*/
 	background-repeat: no-repeat;
 }
 

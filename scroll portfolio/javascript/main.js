@@ -1,5 +1,17 @@
 $(document).ready(init);
 
+$('img').hide();
+
+$(document).ready(
+function( e ) {
+	function anim() {
+    $("#wrap img").first().appendTo('#wrap').fadeOut(1000);
+    $("#wrap img").first().fadeIn(2000);    
+    setTimeout(anim, 6000);
+	}
+	anim();
+});
+
 function init() {
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
 
