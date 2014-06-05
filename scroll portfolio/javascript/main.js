@@ -7,6 +7,25 @@ one.hover(function() {
   one.addClass("one1");
 });
 
+/*var work = $(".five");
+work.click(function() {
+  work.show("slide");
+})*/
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  	mode: 'fade',
+  	adaptiveHeight: true,
+  	captions: true,
+  	minSlides: 1,
+  	maxSlides: 1,
+  	slideWidth: 700,
+  	slideMargin: 10,
+  	randomStart: true
+	});
+});
+
+
 function init() {
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
 
