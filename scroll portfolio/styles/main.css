@@ -22,7 +22,6 @@ body {
 	padding-top:	500px;
 	background:	rgba(0, 0, 0, 0.00);
 	height:		1400px;	
-	top:		200px;
 }
 
 .one1 { 
@@ -31,10 +30,11 @@ body {
 	font-weight: 		bold;
 	padding-top:		500px;
 	background: 		url(one.png) 50% no-repeat;
-	color:		rgba(255, 255, 255, 0.90);
-	-webkit-transition: background 11s linear, color 15s ease-in-out;
+	color:		rgba(255, 225, 0, .90);
+	-webkit-transition: background 15s linear, color 12s ease-in-out;
 	height:		1400px;	
-	top:		200px;
+	top:		50px;
+	left:		-100px;
 }
 
 /*.one2 {
