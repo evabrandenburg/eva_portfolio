@@ -19,26 +19,21 @@ body {
 	width: 1200px;
 	text-align: center;
 	font-weight: bold;
-	padding-top:	500px;
+	padding-top:	800px;
 	background:	rgba(0, 0, 0, 0.00);
-	-webkit-transition: background 15s;
+	/*-webkit-transition: background 15s;*/
 	height:		1400px;	
 }
 
 .one1 { 
 	width: 1200px;
-	text-align: 		center;
-	font-weight: 		bold;
-	padding-top:		900px;
-	margin-top:			-60px;
-	background: 		url(one.png) 50% no-repeat;
+	/*background: 		url(one.png) 50% no-repeat;*/
 	color:		white;
-	-webkit-transition:
-	background 20s cubic-bezier(1,.5,.8,.97),
+	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
+	/*background 20s cubic-bezier(1,.5,.8,.97),*/
 	color 6s cubic-bezier(.05,-2.75,0,-2);
 	height:		1400px;	
-	top:		00px;
-	left:		-100px;
+	
 }
 
 
