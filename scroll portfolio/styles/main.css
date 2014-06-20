@@ -1,38 +1,38 @@
 /* CURRENTLY IN: styles/main.css */
 body {
-	background: url(background.jpg);
-	background-repeat:	no-repeat;
-	background-size:  cover;
-	background-position: static;
-	color: rgba(0, 0, 0, 0.00);
-	font-size: 50px;
-	font-family: "Terminal Dosis", sans-serif;
-	overflow: hidden;
+	background: 			url(background.jpg);
+	background-repeat:		no-repeat;
+	background-size:  		cover;
+	background-position: 	static;
+	color: 					rgba(0, 0, 0, 0.00);
+	font-size: 				50px;
+	font-family: 			"Terminal Dosis", sans-serif;
+	overflow: 				hidden;
 }
 
 
 .wrapper div {
-	position: absolute;
+	position: 				absolute;
 }
 
 .one { 
-	width: 1200px;
-	text-align: center;
-	font-weight: bold;
-	padding-top:	800px;
-	background:	rgba(0, 0, 0, 0.00);
+	width: 					1200px;
+	text-align: 			center;
+	font-weight: 			bold;
+	padding-top:			800px;
+	background:				rgba(0, 0, 0, 0.00);
 	/*-webkit-transition: background 15s;*/
-	height:		1400px;	
+	height:					1400px;	
 }
 
 .one1 { 
-	width: 1200px;
+	width: 					1200px;
 	/*background: 		url(one.png) 50% no-repeat;*/
-	color:		white;
+	color:					white;
 	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
 	/*background 20s cubic-bezier(1,.5,.8,.97),*/
 	color 6s cubic-bezier(.05,-2.75,0,-2);
-	height:		1400px;	
+	height:					1400px;	
 	
 }
 
@@ -43,48 +43,59 @@ body {
 }*/
 
 .two {
-	top: 1230px;
-	left: -400px;
-	width: 1305px;
-	height: 1250px;
-	text-align: center;
-	padding-top: 750px;
+	top: 					1230px;
+	left: 					-400px;
+	width: 					1305px;
+	height: 				1250px;
+	text-align: 			center;
+	padding-top: 			750px;
 	/*background: url(two.png);*/
-	background-repeat: no-repeat;
-	z-index: -1;
+	background-repeat: 		no-repeat;
+	z-index: 				-1;
 }
 
+.two2 { 
+	width: 					1305px;
+	/*background: 		url(one.png) 50% no-repeat;*/
+	color:					white;
+	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
+	/*background 20s cubic-bezier(1,.5,.8,.97),*/
+	color 6s cubic-bezier(.05,-2.75,0,-2);
+	height: 				1250px;
+}
+
+
 .three {
-	top: 1950px;
-	left: 500px;
-	width: 4500px;
-	height:	400px;
-	text-align: right;
+	top: 					1950px;
+	left: 					500px;
+	width: 					4500px;
+	height:					400px;
+	text-align: 			right;
 	/*background: url(three.png);*/
-	background-repeat: no-repeat;
+	background-repeat: 		no-repeat;
 }
 
 .four {
-	top: -300px;
-	left: 5000px;
-	width: 400px;
+	top: 					-300px;
+	left: 					5000px;
+	width: 					400px;
 }
 
 .five {
-	color: white;
-	left: 2185px;
-	top: 660px;
-	width: 460px;
-	transform: rotate(-90deg) translateY(2.5em);
+	color: 					white;
+	left: 					2185px;
+	top: 					660px;
+	width: 					460px;
+	transform: 				rotate(-90deg) translateY(2.5em);
 }
 
 .five .upside-down {
-	font-size: 42px;
-	text-align: right;
-	transform: rotate(180deg) translateY(3em);
+	font-size: 				42px;
+	text-align: 			right;
+	transform: 				rotate(180deg) translateY(3em);
 }
 
 nav {
-	z-index: 1000;
-	color:	 white;
+	z-index: 				1000;
+	color:	 				white;
 }

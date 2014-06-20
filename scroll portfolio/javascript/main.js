@@ -7,6 +7,11 @@ one.hover(function() {
   one.addClass("one1");
 });
 
+var two = $(".two");
+two.hover(function() {
+  two.addClass("two2");
+});
+
 /*var work = $(".five");
 work.click(function() {
   work.show("slide");
