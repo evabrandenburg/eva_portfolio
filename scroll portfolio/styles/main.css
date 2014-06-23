@@ -75,6 +75,16 @@ body {
 	background-repeat: 		no-repeat;
 }
 
+.three3 { 
+	width: 					1305px;
+	/*background: 		url(one.png) 50% no-repeat;*/
+	color:					white;
+	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
+	/*background 20s cubic-bezier(1,.5,.8,.97),*/
+	color 6s cubic-bezier(.05,-2.75,0,-2);
+	height: 				1250px;
+}
+
 .four {
 	top: 					-300px;
 	left: 					5000px;
