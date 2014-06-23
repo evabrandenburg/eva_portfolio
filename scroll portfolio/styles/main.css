@@ -19,11 +19,12 @@ body {
 	width: 					1200px;
 	text-align: 			center;
 	font-weight: 			bold;
-	padding-top:			800px;
+	top:					800px;
+	right:					1000px;
 	color:					blue;
 	background:				rgba(0, 0, 0, 0);
 	/*-webkit-transition: background 15s;*/
-	height:					1400px;	
+	height:					500px;	
 }
 
 .one1 { 
