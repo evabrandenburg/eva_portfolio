@@ -12,19 +12,19 @@ two.hover(function() {
   two.addClass("two2");
 });
 
-var two = $(".three");
-two.hover(function() {
-  two.addClass("three3");
+var three = $(".three");
+three.hover(function() {
+  three.addClass("three3");
 });
 
-var two = $(".four");
-two.hover(function() {
-  two.addClass("four4");
+var four = $(".four");
+four.hover(function() {
+  four.addClass("four4");
 });
 
-var two = $(".five");
-two.hover(function() {
-  two.addClass("five5");
+var five = $(".five");
+five.hover(function() {
+  five.addClass("five5");
 });
 
 /*var work = $(".five");

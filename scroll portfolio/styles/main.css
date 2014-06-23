@@ -20,7 +20,8 @@ body {
 	text-align: 			center;
 	font-weight: 			bold;
 	padding-top:			800px;
-	background:				rgba(0, 0, 0, 0.00);
+	color:					blue;
+	background:				rgba(0, 0, 0, 0);
 	/*-webkit-transition: background 15s;*/
 	height:					1400px;	
 }
@@ -31,7 +32,6 @@ body {
 	color:					white;
 	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
 	/*background 20s cubic-bezier(1,.5,.8,.97),*/
-	color 6s cubic-bezier(.05,-2.75,0,-2);
 	height:					1400px;	
 	
 }
@@ -43,25 +43,25 @@ body {
 }*/
 
 .two {
-	top: 					1230px;
-	left: 					-400px;
-	width: 					1305px;
-	height: 				1250px;
+	top: 					1000px;
+	left: 					0px;
+	width: 					1200px;
+	height: 				500px;
 	text-align: 			center;
 	padding-top: 			750px;
-	/*background: url(two.png);*/
-	background-repeat: 		no-repeat;
-	z-index: 				-1;
+	color:					blue;
 }
 
 .two2 { 
-	width: 					1305px;
-	/*background: 		url(one.png) 50% no-repeat;*/
+	top: 					1000px;
+	left: 					0px;
+	width: 					1200px;
+	height: 				500px;
+	text-align: 			center;
+	padding-top: 			750px;
 	color:					white;
 	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
 	/*background 20s cubic-bezier(1,.5,.8,.97),*/
-	color 6s cubic-bezier(.05,-2.75,0,-2);
-	height: 				1250px;
 }
 
 
@@ -76,13 +76,13 @@ body {
 }
 
 .three3 { 
-	width: 					1305px;
+	width: 					4500px;
 	/*background: 		url(one.png) 50% no-repeat;*/
 	color:					white;
 	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
 	/*background 20s cubic-bezier(1,.5,.8,.97),*/
 	color 6s cubic-bezier(.05,-2.75,0,-2);
-	height: 				1250px;
+	height: 				400px;
 }
 
 .four {
