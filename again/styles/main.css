@@ -1,0 +1,17 @@
+/* CURRENTLY IN: styles/main.css */
+
+body {
+	background: 				url(../pics/cray.jpg);
+	color:						transparent;
+	background-color:			transparent;
+	 -webkit-background-clip: text;
+}
+
+
+h1 {
+	width:					100%;
+	font-size:				600%;
+	font-weight:			bolder;
+	z-index:				100;
+}
+
