@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  width: 500px;
+  margin: auto;
+}
+
+.yellow, .yellow1 {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  float: right;
+}
+
+div {
+  height:100px;
+  width: 100px;
+  background-color: blue;
+  float: right;
+}/* CURRENTLY IN: styles/main.css */
