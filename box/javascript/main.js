@@ -1,3 +1,13 @@
+  var collection = $("div.container div").get();
+    collection.sort(function() {
+        return Math.random()*10 > 5 ? 1 : -1;
+    });
+    $.each(collection,function(i,el) {
+        var color = this.className,
+            $el = $(el);
+        $el.css({backgroundColor: color}).appendTo( $el.parent() );
+    });
+
 
 $("div").click( show );
 

@@ -1,17 +1,14 @@
 /* CURRENTLY IN: styles/main.css */
 
 body {
-	background: 				url(../pics/cray.jpg);
-	color:						transparent;
-	background-color:			transparent;
-	 -webkit-background-clip: text;
+	/*background: 				url(../pics/cray.jpg);*/
 }
 
 
-h1 {
-	width:					100%;
-	font-size:				600%;
-	font-weight:			bolder;
-	z-index:				100;
+#bubble {
+	height:						200px;
+	width:						200px;
+	border-radius: 				50%;
+	background-color:			blue;
 }
 
