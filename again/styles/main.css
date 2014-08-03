@@ -1,19 +1,43 @@
 /* CURRENTLY IN: styles/main.css */
 
 body {
-	/*background: 				url(../pics/cray.jpg);*/
+	background-image: url(../pics/cray.jpg);
+	background-size: 			cover;
+	font-family: 'Raleway', sans-serif;
+	position:			relative;
+}
+
+.b1 {
+	float:				right;
+	margin-top:			160px;
+	margin-right:		50%;
+}
+
+.b2 {
+	float:				left;
+	margin-top:			120px;
+	margin-left:		12%;
+}
+
+.b3 {
+	float:				right;
+	margin-top:			120px;
+	margin-right:		65%;
 
 }
 
-h1 {
-	font-family: 				'Roboto Slab', serif;
+.thought {
+	height:				100px;
+	width:				100px;
+	background-color:	blue;
+	float:				right;
+	margin-left:		80%;
 }
 
 #bubble {
-	 background: 				url(../pics/cray.jpg);
-	 margin:					20px;
-	 height:					100px;
-	 width:						100px;
+	 background-image: url(../pics/cray.jpg);
+	 height:					130px;
+	 width:						130px;
 	 border-radius: 			50%;
     -webkit-animation:	 pulsate 2.5s alternate ease-in;
     -webkit-animation-iteration-count: infinite;
