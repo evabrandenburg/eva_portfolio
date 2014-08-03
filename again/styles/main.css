@@ -2,13 +2,43 @@
 
 body {
 	/*background: 				url(../pics/cray.jpg);*/
+
 }
 
+h1 {
+	font-family: 				'Roboto Slab', serif;
+}
 
 #bubble {
-	height:						200px;
-	width:						200px;
-	border-radius: 				50%;
-	background-color:			blue;
+	 background-color:			blue;
+	 height:					100px;
+	 width:						100px;
+	 border-radius: 			50%;
+    -webkit-animation:	 pulsate 2s alternate ease-in;
+    -webkit-animation-iteration-count: infinite;
+  	-moz-animation:	pulsate 2s alternate ease-in;
+  	-moz-animation-iteration-count: infinite;
+  	-o-animation:	pulsate 2s alternate ease-in;
+  	-o-animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.7, 0.7);}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2);}
+    0% {-webkit-transform: scale(0.7, 0.7);}
+}
+
+@-moz-keyframes pulsate {
+	0% {-moz-transform: scale(0.7, 0.7);}
+    50% {opacity: 1.0;}
+    100% {-moz-transform: scale(1.2, 1.2);}
+    0% {-moz-transform: scale(0.7, 0.7);}
+}
+
+@-o-keyframes pulsate {
+	0% {-o-transform: scale(0.7, 0.7);}
+    50% {opacity: 1.0;}
+    100% {-o-transform: scale(1.2, 1.2);}
+    0% {-o-transform: scale(0.7, 0.7);}	
+}
