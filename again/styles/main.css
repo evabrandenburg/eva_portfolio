@@ -32,6 +32,15 @@ body {
 	background-color:	blue;
 	float:				right;
 	margin-left:		80%;
+	margin-top:			-350px;
+	margin-right:		100px;
+}
+
+.ball1 {
+	width:				20px;
+	height:				20px;
+	border-radius:		50%;
+	background-color:	white;
 }
 
 #bubble {
