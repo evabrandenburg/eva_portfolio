@@ -40,11 +40,11 @@ $(".b2").hover( look2 );
 }
 $(".b3").hover( look3 );*/
 $(".b1").mouseover(function(){
-         $(".me").css("background-color", "green");
+         $(".me").css("background-image", "(url../pics/LookL.jpg)");
 });
 
 $(".b1").mouseout(function(){
-         $(".me").css("background-color", "blue");
+         $(".me").css("background-image", "(url../pics/smile.jpg)");
 });
 
 $(".b2").mouseover(function(){
