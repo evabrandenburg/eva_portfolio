@@ -22,9 +22,31 @@ function noG(){
 
 $( ".me" ).hover( noG );
 
+//
 function look1(){
 	$( ".me" ).addClass( "look1" );
 }
+$(".b1").hover( look1 );
 
-$(".b2").hover( look1 );
+//
+function look2(){
+	$( ".me" ).addClass( "look2" );
+}
+$(".b2").hover( look2 );
+
+//
+/*function look3(){
+	$( ".me" ).addClass( "look3" );
+}
+$(".b3").hover( look3 );*/
+
+$(".b3").mouseover(function(){
+         $(".me").css("background-color", "orange");
+});
+
+$(".b3").mouseout(function(){
+         $(".me").css("background-color", "blue");
+});
+
+
 

@@ -36,6 +36,14 @@ body {
 	background-color:	green;
 }
 
+.look2 {
+	background-color:	yellow;
+}
+
+.look3 {
+	background-color:	orange;
+}
+
 .me:hover {
 	background-color:	red;
 }
@@ -43,21 +51,21 @@ body {
 
 .b1 {
 	float:				left;
-	margin-top:			300px;
-	margin-left:		200px;
+	margin-top:			250px;
+	margin-left:		230px;
 
 }
 
 .b2 {
 	float:				left;
-	margin-top:			170px;
-	margin-left:		12%;
+	margin-top:			0px;
+	margin-left:		700px;
 }
 
 .b3 {
-	float:				right;
-	margin-top:			150px;
-	margin-right:		65%;
+	float:				left;
+	margin-top:			200px;
+	margin-left:		300px;
 
 }
 
@@ -173,7 +181,7 @@ body {
 		text-align:center;
 	}
 
-
+*/
 
 	
 	#section0{
@@ -182,14 +190,14 @@ body {
 		background: linear-gradient(#4BBFC3,#7BAABE);
 	}
 
-	#section2{
-		background: -webkit-gradient(linear, top left, bottom left, from(#969ac6), to(#636F8F));
-		background: -webkit-linear-gradient(#969AC6, #636F8F);
-		background: linear-gradient(#969AC6,#636F8F);
+	#section1{
+		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#4bbfc2)));
+		background: -webkit-linear-gradient(#7baabe, #4bbfc2);
+		background: linear-gradient(#7baabe),#4bbfc2);
 	}
 
 
-
+/*
 
 	#slide1{
 		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
