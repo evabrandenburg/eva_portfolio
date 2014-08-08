@@ -25,12 +25,14 @@ $( ".me" ).hover( noG );
 
 function look1(){
 	$( ".me" ).removeClass( "look2" );
+	$( ".me" ).removeClass( "look3" );
 	$( ".me" ).addClass( "look1" );
 }
 $(".b1").hover( look1 );
 
 function look2(){
 	$( ".me" ).removeClass( "look1" );
+		$( ".me" ).removeClass( "look3" );
 	$( ".me" ).addClass( "look2" );
 
 }
