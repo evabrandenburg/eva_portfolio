@@ -10,6 +10,9 @@ body {
 	width:					100%;
 }
 
+.section {
+}
+
 .me {
 	background-color:	blue;
 	height:				330px;
@@ -21,6 +24,10 @@ body {
 	text-align: 		center;
 	left:				30%;
 	right:				30%;
+}
+
+.look1 {
+	background-color:	green;
 }
 
 .me:hover {
@@ -53,9 +60,9 @@ body {
 	background-color:	blue;
 	float:				right;
 	margin-left:		80%;
-	margin-top:			-200px;
-	margin-right:		100px;
-	-webkit-transform: rotate(180deg);
+	margin-top:			100px;
+	margin-right:		200px;
+	position:			relative;
 }
 
 .thought {

@@ -22,3 +22,9 @@ function noG(){
 
 $( ".me" ).hover( noG );
 
+function look1(){
+	$( ".me" ).addClass( "look1" );
+}
+
+$(".b2").hover( look1 );
+
