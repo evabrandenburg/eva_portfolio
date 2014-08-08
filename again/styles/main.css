@@ -1,20 +1,30 @@
 /* CURRENTLY IN: styles/main.css */
 
 body {
-	background-size: 			cover;
+	background-size: 			100%;
 	font-family: 'Raleway', sans-serif;
-	position:				absolute;
+	position:				relative;
+}
+
+#fullpage {
+	width:					100%;
 }
 
 .me {
-	background-image: url(../pics/cray.jpg);
-	height:				300px;
-	width:				300px;
+	background-color:	blue;
+	height:				330px;
+	width:				330px;
 	border-radius:		50%;
+	margin:				auto;
+	position:			fixed;
+	top:				200px;
+	text-align: 		center;
+	left:				30%;
+	right:				30%;
 }
 
 .me:hover {
-	background-image:	url(../pics/pic.jpg);
+	background-color:	red;
 }
 
 
@@ -43,7 +53,7 @@ body {
 	background-color:	blue;
 	float:				right;
 	margin-left:		80%;
-	margin-top:			-350px;
+	margin-top:			-200px;
 	margin-right:		100px;
 	-webkit-transform: rotate(180deg);
 }
@@ -133,7 +143,7 @@ body {
     0% {-o-transform: scale(0.7, 0.7);}	
 }
 
-h1{
+/*h1{
 		font-size: 5em;
 		font-family: arial,helvetica;
 		color: #fff;
@@ -144,16 +154,14 @@ h1{
 		color: #fff;
 	}
 
-	/* Centered texts in each section
-	* --------------------------------------- */
+
 	.section{
 		text-align:center;
 	}
 
 
 
-	/* Defining each sectino background and styles
-	* --------------------------------------- */
+	
 	#section0{
 		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
 		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
@@ -168,8 +176,7 @@ h1{
 
 
 
- 	/*Adding background for the slides
-	* --------------------------------------- */
+
 	#slide1{
 		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#969ac6));
 		background: -webkit-linear-gradient(#7BAABE, #969AC6);
@@ -182,8 +189,4 @@ h1{
 	}
 
 
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
+	 */
