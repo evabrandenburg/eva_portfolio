@@ -20,7 +20,7 @@ body {
 }
 
 .me {
-	background-color:	blue;
+	background-image:	url(../pics/default.jpg);
 	height:				320px;
 	width:				320px;
 	border-radius:		50%;
@@ -45,7 +45,7 @@ body {
 }
 
 .me:hover {
-	background-color:	red;
+	background-image:	url(../pics/smile.jpg);
 }
 
 
