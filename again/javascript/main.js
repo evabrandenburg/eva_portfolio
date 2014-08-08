@@ -24,9 +24,24 @@ $( ".me" ).hover( noG );
 
 
 function look1(){
+	$( ".me" ).removeClass( "look2" );
 	$( ".me" ).addClass( "look1" );
 }
 $(".b1").hover( look1 );
+
+function look2(){
+	$( ".me" ).removeClass( "look1" );
+	$( ".me" ).addClass( "look2" );
+
+}
+$(".b2").mouseover( look2 );
+
+$(".b2").mouseout( look1 );
+
+
+
+
+
 
 /*
 function look2(){
