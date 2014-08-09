@@ -26,7 +26,7 @@ body {
 	border-radius:		50%;
 	margin:				auto;
 	position:			fixed;
-	top:				180px;
+	top:				190px;
 	text-align: 		center;
 	right:				320px;
 	left:				320px;
@@ -75,8 +75,8 @@ body {
 	background-color:	blue;
 	float:				right;
 	margin-left:		80%;
-	margin-top:			100px;
-	margin-right:		200px;
+	margin-top:			60px;
+	margin-right:		220px;
 	position:			relative;
 	 -webkit-animation:	 pulsate 2.5s alternate ease-in;
     -webkit-animation-iteration-count: infinite;
@@ -88,7 +88,7 @@ body {
 
 @-webkit-keyframes pulsate {
     0% {-webkit-transform: scale(0.9, 0.9);}
-    100% {-webkit-transform: scale(1.1, 1.1);}
+    100% {-webkit-transform: scale(1.0, 1.0);}
 }
 
 .ball1 {
@@ -96,57 +96,65 @@ body {
 	width:				250px;
 	height:				150px;
 	border-radius:		0%;
-	margin:			20px;
-	background-color:	white;
+	margin:			10px;
 	-transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
 
 .tg {
-	background-color:	green;
+
+	background-color:	white;
 	border-radius:		50%;
 	position:			absolute;
 }
 
 .t1 {
-	height:				70px;
-	width:				70px;
-	left:				20px;
-	top:				30px;
+	height:				75px;
+	width:				75px;
+	left:				-10px;
+	top:				20px;
 }
 
 .t2 {
 	height:				140px;
 	width:				140px;
-	left:				60px;
+	left:				40px;
+	top:				-5px;
 }
 
 .t3 {
 	height:				80px;
 	width:				80px;
-	left:				160px;
-	top:				0px;
+	left:				165px;
+	top:				10px;
 }
 
 .t4 {
-	height:				85px;
-	width:				85px;
+	height:				100px;
+	width:				100px;
 	left:				0px;
-	top:				100px;
+	top:				70px;
 }
 
 .t5 {
-	height:				50px;
-	width:				50px;
+	height:				70px;
+	width:				70px;
 	left:				80px;
-	top:				120px;
+	top:				130px;
 }
 
 .t6 {
-	height:				150px;
-	width:				150px;
-	left:				150px;
+	height:				120px;
+	width:				120px;
+	left:				130px;
+	top:				70px;
+}
+
+.t7 {
+	height:				100px;
+	width:				100px;
+	left:				200px;
 	top:				50px;
 }
 
@@ -155,7 +163,7 @@ body {
 	width:				40px;
 	height:				40px;
 	border-radius:		50%;
-	margin:				10px;
+	margin:				5px;
 	background-color:	white;
 
 }
