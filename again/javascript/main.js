@@ -16,29 +16,53 @@ function show (){
 
 $( ".thought" ).hover( show );
 
-function noG(){
-	$( ".me" ).addClass( "noG" );
+function meS(){
+    $( ".me" ).removeClass( "look2" );
+    $( ".me" ).removeClass( "look3" );
+    $( ".me" ).removeClass( "look1" );
+    $( ".me" ).addClass( "meS" );
 }
 
-$( ".me" ).hover( noG );
+function meD(){
+    $( ".me" ).removeClass( "meS" );
+    $( ".me" ).removeClass( "look2" );
+    $( ".me" ).removeClass( "look3" );
+    $( ".me" ).removeClass( "look1" );
+    $( ".me" ).addClass( "me" );
+}
+
+$(".me").hover( meS );
+$(".me").mouseout( meD );
 
 
 function look1(){
+    $( ".me" ).removeClass( "meS" );
 	$( ".me" ).removeClass( "look2" );
 	$( ".me" ).removeClass( "look3" );
 	$( ".me" ).addClass( "look1" );
 }
 $(".b1").hover( look1 );
+$( ".b1" ).mouseout( meD );
 
 function look2(){
+    $( ".me" ).removeClass( "meS" );
 	$( ".me" ).removeClass( "look1" );
-		$( ".me" ).removeClass( "look3" );
+	$( ".me" ).removeClass( "look3" );
 	$( ".me" ).addClass( "look2" );
-
 }
-$(".b2").mouseover( look2 );
 
-$(".b2").mouseout( look1 );
+$(".b2").hover( look2 );
+$( ".b2" ).mouseout( meD );
+
+function look3(){
+    $( ".me" ).removeClass( "meS" );
+    $( ".me" ).removeClass( "look1" );
+    $( ".me" ).removeClass( "look2" );
+    $( ".me" ).addClass( "look3" );
+}
+
+$(".b3").hover( look3 );
+$( ".b3" ).mouseout( meD );
 
 
 

@@ -41,10 +41,10 @@ body {
 }
 
 .look3 {
-	background-color:	url(../pics/lookD.jpg);
+	background-image:	url(../pics/lookD2.jpg);
 }
 
-.me:hover {
+.meS {
 	background-image:	url(../pics/smile.jpg);
 }
 
