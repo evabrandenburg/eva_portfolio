@@ -78,10 +78,7 @@ body {
 	margin-top:			100px;
 	margin-right:		200px;
 	position:			relative;
-}
-
-.thought {
-    -webkit-animation:	 pulsate 2.5s alternate ease-in;
+	 -webkit-animation:	 pulsate 2.5s alternate ease-in;
     -webkit-animation-iteration-count: infinite;
   	-moz-animation:	pulsate 2s alternate ease-in;
   	-moz-animation-iteration-count: infinite;
@@ -94,33 +91,34 @@ body {
     100% {-webkit-transform: scale(1.1, 1.1);}
 }
 
-.ball2 {
-	width:				20px;
-	height:				20px;
+.ball1 {
+	opacity:			.5;
+	width:				50px;
+	height:				50px;
 	border-radius:		50%;
 	margin:			20px;
 	background-color:	white;
-	float:				left;
-}
-
-.ball1 {
-	width:				40px;
-	height:				40px;
-	border-radius:		50%;
-	background-color:	white;
-	float:				left;
-}
-
-.ball3 {
-	opacity:			.5;
-	height:				70px;
-	width:				70px;
-	border-radius: 		50%;
-	background-color: 	white;
-	float:				right;
 	-transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+
+}
+
+.ball2 {
+	width:				40px;
+	height:				40px;
+	border-radius:		50%;
+	margin:				10px;
+	background-color:	white;
+
+}
+
+.ball3 {
+	height:				20px;
+	width:				20px;
+	border-radius: 		50%;
+	margin:				5px;
+	background-color: 	white;
 
 }
 

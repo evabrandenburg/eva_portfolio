@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 function show (){
-	$( ".ball3" ).addClass( "show" );
+	$( ".ball1" ).addClass( "show" );
 }
 
 $( ".thought" ).hover( show );
