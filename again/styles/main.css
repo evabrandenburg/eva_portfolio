@@ -9,10 +9,12 @@ body {
 
 #container {
 	background-color:			white;
+	margin:						auto;
 }
 
 .title {
 	float:				left;
+	margin-right:		300px;
 }
 
 .name {
@@ -34,6 +36,18 @@ footer {
 	padding:				10px;
 }
 
+a {
+	color:				black;
+	text-decoration: 	none;
+	-transition: color .25s ease-in-out;
+   -moz-transition: color .25s ease-in-out;
+   -webkit-transition: color .25s ease-in-out;
+}
+
+a:hover {
+	color:				white;
+}
+
 .info {
 	float:				left;
 	margin:				20px;
@@ -46,8 +60,6 @@ span {
 	width:				100%;
 }
 
-.section {
-}
 
 .me {
 	background-image:	url(../pics/default.jpg);
@@ -86,22 +98,35 @@ span {
 .b1 {
 	float:				left;
 	background-image: url(../pics/bike.jpg);
-	margin:				auto;
 	background-size:	cover;
 	height:				165px;
 	width:				165px;
 	margin-top:			40px;
 	margin-left:		200px;
 	color:				white;
+		-transition: background-image .1s ease-in-out;
+   -moz-transition: background-image .1s ease-in-out;
+   -webkit-transition: background-image .1s ease-in-out;
+}
+
+.b1:hover {
+	background-image: url(../pics/bikeH.jpg);
+
 }
 
 .b2 {
-	background-image: url(../pics/cray.jpg);
+	background-image: url(../pics/corin.jpg);
+	background-size:	cover;
 	height:				150px;
 	width:				150px;
 	float:				left;
 	margin-top:			-50px;
 	margin-left:		700px;
+}
+
+.b2:hover {
+	background-image: url(../pics/corinH.jpg);
+
 }
 
 .b3 {
@@ -293,15 +318,15 @@ span {
 
 	
 	#section0{
-		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
-		background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
-		background: linear-gradient(#4BBFC3,#7BAABE);
+		background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#4BB7C3));
+		background: -webkit-linear-gradient(#4BBFC3, #4BB7C3);
+		background: linear-gradient(#4BBFC3,#4BB7C3);
 	}
 
 	#section1{
-		background: -webkit-gradient(linear, top left, bottom left, from(#7baabe), to(#4bbfc2)));
-		background: -webkit-linear-gradient(#7baabe, #4bbfc2);
-		background: linear-gradient(#7baabe),#4bbfc2);
+		background: -webkit-gradient(linear, top left, bottom left, from(#4BB7C3), to(#4B9BC3)));
+		background: -webkit-linear-gradient(#4BB7C3, #4B9BC3);
+		background: linear-gradient(#4BB7C3),#4B9BC3);
 	}
 
 
