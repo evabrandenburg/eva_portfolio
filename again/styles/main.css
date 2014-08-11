@@ -11,8 +11,26 @@ body {
 	background-color:			white;
 }
 
+.name {
+	font-size:			30px;
+	text-transform: 	uppercase;
+}
+
+.wb {
+	font-size: 			20px;
+	text-transform: 	uppercase;
+}
+
+footer {
+	text-transform: 	uppercase;
+	position:			fixed;
+	bottom:				0px;
+	background-color:	rgba(255, 255, 255, 0.3);
+	width:				100%;
+}
+
 #fullpage {
-	width:					100%;
+	width:				100%;
 }
 
 .section {
@@ -94,7 +112,7 @@ body {
 }
 
 .ball1 {
-	opacity:			.2;
+	opacity:			.3;
 	width:				250px;
 	height:				150px;
 	border-radius:		0%;
