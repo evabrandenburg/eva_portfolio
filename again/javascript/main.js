@@ -44,8 +44,8 @@ function lookB(){
     $( ".me" ).addClass( "lookB" );
 }
 
-$(".thought").hover( lookB );
-$(".thought").mouseout( meD );
+$(".ball1T").hover( lookB );
+$(".ball1T").mouseout( meD );
 
 function look1(){
     $( ".me" ).removeClass( "meS" );
@@ -75,6 +75,12 @@ function look3(){
 
 $(".b3").hover( look3 );
 $( ".b3" ).mouseout( meD );
+
+function aboutH(){
+    $( ".aboutH" ).addClass( "show" );
+}
+
+$(".about").click( aboutH );
 
 });
 
