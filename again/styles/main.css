@@ -11,6 +11,10 @@ body {
 	background-color:			white;
 }
 
+.title {
+	float:				left;
+}
+
 .name {
 	font-size:			30px;
 	text-transform: 	uppercase;
@@ -27,6 +31,15 @@ footer {
 	bottom:				0px;
 	background-color:	rgba(255, 255, 255, 0.3);
 	width:				100%;
+	padding:				10px;
+}
+
+.info {
+	float:				left;
+	margin:				20px;
+}
+span {
+	margin-left:		20px;
 }
 
 #fullpage {
@@ -43,7 +56,7 @@ footer {
 	border-radius:		50%;
 	margin:				auto;
 	position:			fixed;
-	top:				190px;
+	top:				170px;
 	text-align: 		center;
 	right:				320px;
 	left:				320px;
