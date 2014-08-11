@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 function show (){
 	$( ".ball1" ).addClass( "show" );
-}
+    ( lookB );
 
 $( ".thought" ).hover( show );
 
@@ -33,6 +33,14 @@ function meD(){
 
 $(".me").hover( meS );
 $(".me").mouseout( meD );
+
+function lookB(){
+    $( ".me" ).removeClass( "meS" );
+    $( ".me" ).removeClass( "look2" );
+    $( ".me" ).removeClass( "look3" );
+    $( ".me" ).removeClass( "look1" );
+    $( ".me" ).addClass( "lookB" );
+}
 
 
 function look1(){
