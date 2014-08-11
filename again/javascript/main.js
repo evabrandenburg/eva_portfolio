@@ -44,8 +44,8 @@ function lookB(){
     $( ".me" ).addClass( "lookB" );
 }
 
-$(".ball2").hover( lookB );
-$(".ball2").mouseout( meD );
+$(".thought").hover( lookB );
+$(".thought").mouseout( meD );
 
 function look1(){
     $( ".me" ).removeClass( "meS" );

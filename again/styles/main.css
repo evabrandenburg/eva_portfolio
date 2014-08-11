@@ -98,8 +98,8 @@ span {
 
 .b3 {
 	float:				left;
-	margin-top:			250px;
-	margin-left:		350px;
+	margin-top:			220px;
+	margin-left:		300px;
 
 }
 
@@ -141,8 +141,9 @@ span {
 	height:				140px;
 	position:			absolute;
 	top:				50px;
-	left:				40px;
+	left:				50px;
 	color:				rgba(0, 0, 0, 0);
+	line-height: 		1.2;
 	-transition: color 1s ease-in-out;
    -moz-transition: color 1s ease-in-out;
    -webkit-transition: color 1s ease-in-out;
