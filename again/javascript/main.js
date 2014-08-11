@@ -1,6 +1,7 @@
 /* CURRENTLY IN: javascript/main.js */
 
 $(document).ready(function() {
+
     $('#fullpage').fullpage({
         verticalCentered: true,
         resize : true,
@@ -8,11 +9,11 @@ $(document).ready(function() {
         easing: 'easeInQuart',
         autoScrolling: false
      });
-});
 
 function show (){
 	$( ".ball1" ).addClass( "show" );
     ( lookB );
+}
 
 $( ".thought" ).hover( show );
 
@@ -72,6 +73,7 @@ function look3(){
 $(".b3").hover( look3 );
 $( ".b3" ).mouseout( meD );
 
+});
 
 
 
