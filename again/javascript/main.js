@@ -12,7 +12,8 @@ $(document).ready(function() {
 
 function show (){
 	$( ".ball1" ).addClass( "show" );
-}
+    $( ".ball1T").addClass( "show" );
+} 
 
 $( ".ball2" ).hover( show );
 

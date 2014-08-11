@@ -112,6 +112,9 @@ body {
 	top:				40px;
 	left:				20px;
 	display:			none;
+	-transition: display .25s ease-in-out;
+   -moz-transition: display .25s ease-in-out;
+   -webkit-transition: display .25s ease-in-out;
 }
 
 .tg {
@@ -191,6 +194,7 @@ body {
 
  .show {
  	opacity:			1;
+ 	display:			block;
 }
 
 
