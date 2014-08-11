@@ -48,6 +48,10 @@ body {
 	background-image:	url(../pics/smile.jpg);
 }
 
+.lookB {
+	background-image:	url(../pics/lookB.jpg);
+}
+
 
 .b1 {
 	float:				left;
@@ -72,7 +76,6 @@ body {
 .thought {
 	height:				100px;
 	width:				100px;
-	background-color:	blue;
 	float:				right;
 	margin-left:		80%;
 	margin-top:			40px;
@@ -92,7 +95,7 @@ body {
 }
 
 .ball1 {
-	opacity:			.5;
+	opacity:			.2;
 	width:				250px;
 	height:				150px;
 	border-radius:		0%;
@@ -100,6 +103,15 @@ body {
 	-transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.ball1T {
+	width:				230px;
+	height:				140px;
+	position:			absolute;
+	top:				40px;
+	left:				20px;
+	display:			none;
 }
 
 .tg {
@@ -180,10 +192,6 @@ body {
  .show {
  	opacity:			1;
 }
-
-
-
-
 
 
 #bubble {
