@@ -118,6 +118,10 @@ span {
   	-moz-animation-iteration-count: infinite;
   	-o-animation:	pulsate 2s alternate ease-in;
   	-o-animation-iteration-count: infinite;
+
+  		-transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 
 @-webkit-keyframes pulsate {
@@ -130,17 +134,14 @@ span {
 	height:				150px;
 	border-radius:		0%;
 	margin:			10px;
-	-transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
 }
 
 .ball1T {
 	width:				230px;
 	height:				140px;
 	position:			absolute;
-	top:				40px;
-	left:				20px;
+	top:				50px;
+	left:				40px;
 	color:				rgba(0, 0, 0, 0);
 	-transition: color 1s ease-in-out;
    -moz-transition: color 1s ease-in-out;

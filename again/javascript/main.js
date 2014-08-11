@@ -11,11 +11,11 @@ $(document).ready(function() {
      });
 
 function show (){
-	$( ".ball1" ).addClass( "show" );
+	$( ".thought" ).addClass( "show" );
     $( ".ball1T").addClass( "show" );
 } 
 
-$( ".ball2" ).hover( show );
+$( ".thought" ).hover( show );
 
 function meS(){
     $( ".me" ).removeClass( "look2" );
