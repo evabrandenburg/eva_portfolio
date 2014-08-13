@@ -58,10 +58,18 @@ footer {
 	width:				800px;
 	display:			none;
 	position:			fixed;
+	border-radius: 		2px;
 
    -transition: background-color 1s ease-in-out;
    -moz-transition: background-color 1s ease-in-out;
    -webkit-transition: background-color 1s ease-in-out;
+}
+
+.x {
+	float: 				right;
+	margin-top:				-10px;
+	font-size: 			50px;
+	color:				red;
 }
 
 .contactH {
@@ -76,6 +84,7 @@ footer {
 	display:			none;
 	position:			fixed;
 	font-size: 			170%;
+	border-radius: 		2px;
 
    -transition: background-color 1s ease-in-out;
    -moz-transition: background-color 1s ease-in-out;

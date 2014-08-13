@@ -10,6 +10,8 @@ $(document).ready(function() {
         autoScrolling: false
      });
 
+
+
 function show (){
 	$( ".thought" ).addClass( "show" );
     $( ".ball1T").addClass( "show" );
@@ -81,7 +83,16 @@ function aboutH(){
     $(".contactH").removeClass( "show" );
 }
 
-$(".about").click( aboutH );
+$(".about").click( aboutH )
+
+$( ".x" ).click( hide );
+
+function hide(){
+    $(".aboutH").removeClass("show");
+    $(".contactH").removeClass("show");
+}
+
+
 
 function contact(){
     $(".contactH").addClass( "show" );
