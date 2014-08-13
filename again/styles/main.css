@@ -82,6 +82,10 @@ footer {
    -webkit-transition: background-color 1s ease-in-out;
 }
 
+.resumeH{
+	display: 			none;
+}
+
 h3 {
 	margin:			10px;
 }
