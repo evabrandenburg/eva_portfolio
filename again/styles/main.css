@@ -64,13 +64,15 @@ footer {
    -webkit-transition: background-color 1s ease-in-out;
 }
 
-h1, h3 {
+h3 {
 	margin:			10px;
 }
 
 h1 {
-	font-size: 		120%;
+	font-size: 		140%;
 }
+
+p { margin-left:	10px;}
 
 .info {
 	float:				left;
