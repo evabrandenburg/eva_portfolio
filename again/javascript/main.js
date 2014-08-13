@@ -84,6 +84,7 @@ $(".about").click( aboutH );
 
 function contact(){
     $(".contactH").addClass( "show" );
+    $(".aboutH").removeClass("show");
 }
 
 $(".contact").click( contact );
