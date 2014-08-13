@@ -82,6 +82,12 @@ function aboutH(){
 
 $(".about").click( aboutH );
 
+function contact(){
+    $(".contactH").addClass( "show" );
+}
+
+$(".contact").click( contact );
+
 });
 
 
