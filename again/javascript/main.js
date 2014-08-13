@@ -78,6 +78,7 @@ $( ".b3" ).mouseout( meD );
 
 function aboutH(){
     $( ".aboutH" ).addClass( "show" );
+    $(".contactH").removeClass( "show" );
 }
 
 $(".about").click( aboutH );
