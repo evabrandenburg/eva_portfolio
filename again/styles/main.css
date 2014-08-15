@@ -67,9 +67,14 @@ footer {
 
 .x {
 	float: 				right;
-	margin-top:				-10px;
-	font-size: 			60px;
+	margin-top:			-15px;
+	margin-right:		0px;
+	font-size: 			40px;
 	color:				red;
+}
+
+.hide {
+	display:			none;
 }
 
 .contactH {
