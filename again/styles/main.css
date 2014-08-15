@@ -231,6 +231,11 @@ span {
     100% {-webkit-transform: scale(.9, .9);}
 }
 
+@-moz-keyframes pulsate {
+    0% {-moz-transform: scale(0.8, 0.8);}
+    100% {-moz-transform: scale(.9, .9);}
+}
+
 .ball1 {
 	width:				250px;
 	height:				150px;
@@ -354,10 +359,8 @@ span {
 }
 
 @-moz-keyframes pulsate {
-	0% {-moz-transform: scale(0.7, 0.7);}
-    50% {opacity: 1.0;}
-    100% {-moz-transform: scale(1.2, 1.2);}
-    0% {-moz-transform: scale(0.7, 0.7);}
+    0% {-moz-transform: scale(0.9, 0.9);}
+    100% {-moz-transform: scale(1.1, 1.1);}
 }
 
 @-o-keyframes pulsate {
@@ -395,6 +398,18 @@ span {
 	#section1{
 		background: -webkit-gradient(linear, top left, bottom left, from(#4BB7C3), to(#4B9BC3)));
 		background: -webkit-linear-gradient(#4BB7C3, #4B9BC3);
+		background: linear-gradient(#4BB7C3),#4B9BC3);
+	}
+
+	#section0{
+		background: -moz-gradient(linear, top left, bottom left, from(#4bbfc3), to(#4BB7C3));
+		background: -moz-linear-gradient(#4BBFC3, #4BB7C3);
+		background: linear-gradient(#4BBFC3,#4BB7C3);
+	}
+
+	#section1{
+		background: -moz-gradient(linear, top left, bottom left, from(#4BB7C3), to(#4B9BC3)));
+		background: -moz-linear-gradient(#4BB7C3, #4B9BC3);
 		background: linear-gradient(#4BB7C3),#4B9BC3);
 	}
 
