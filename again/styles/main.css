@@ -167,9 +167,9 @@ span {
 	margin-top:			40px;
 	margin-left:		200px;
 	color:				white;
-		-transition: background-image .1s ease-in-out;
-   -moz-transition: background-image .1s ease-in-out;
-   -webkit-transition: background-image .1s ease-in-out;
+		-transition: background-image .2s ease-in-out;
+   -moz-transition: background-image .2s ease-in-out;
+   -webkit-transition: background-image .2s ease-in-out;
 }
 
 .b1:hover {
@@ -185,6 +185,9 @@ span {
 	float:				left;
 	margin-top:			-50px;
 	margin-left:		700px;
+	-transition: background-image .2s ease-in-out;
+   -moz-transition: background-image .2s ease-in-out;
+   -webkit-transition: background-image .2s ease-in-out;
 }
 
 .b2:hover {
