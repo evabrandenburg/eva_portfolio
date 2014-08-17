@@ -181,7 +181,7 @@ span {
 }
 
 .b2 {
-	background-image: url(../pics/corin.jpg);
+	background-image: url(../pics/neil.jpg);
 	background-size:	cover;
 	height:				150px;
 	width:				150px;
@@ -194,7 +194,7 @@ span {
 }
 
 .b2:hover {
-	background-image: 	url(../pics/corinH.jpg);
+	background-image: 	url(../pics/neilH.jpg);
 
 }
 
@@ -218,12 +218,21 @@ span {
 }
 
 .b4 {
-	background-color:	blue;
+	background-image: 	url(../pics/bike.jpg);
+	background-size: 	cover;
 	height:				160px;
 	width:				160px;
 	margin-top:			-160px;
 	margin-left:		-570px;
 	float:				left;
+	-transition: background-image .2s ease-in-out;
+   -moz-transition: background-image .2s ease-in-out;
+   -webkit-transition: background-image .2s ease-in-out;
+}
+
+.b4:hover {
+	background-image: 	url(../pics/bikeH.jpg);
+
 }
 
 .thought {
