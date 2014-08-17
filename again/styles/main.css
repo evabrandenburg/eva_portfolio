@@ -214,6 +214,25 @@ span {
 
 }
 
+.b4 {
+	background-image: 	url(../pics/decideH.jpg);
+	background-size: 	cover;
+	height:				135px;
+	width:				135px;
+	float:				left;
+	margin-top:			150px;
+	margin-left:		300px;
+		-transition: background-image .2s ease-in-out;
+   -moz-transition: background-image .2s ease-in-out;
+   -webkit-transition: background-image .2s ease-in-out;
+
+}
+
+.b4:hover {
+	background-image: 	url(../pics/decide.jpg);
+
+}
+
 .thought {
 	opacity:			.3;
 	height:				100px;
