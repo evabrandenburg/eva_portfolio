@@ -138,7 +138,7 @@ span {
 }
 
 .look1 {
-	background-image:	url(../pics/lookL.jpg);
+	background-image:	url(../pics/lookU.jpg);
 }
 
 .look2 {
@@ -146,7 +146,11 @@ span {
 }
 
 .look3 {
-	background-image:	url(../pics/lookD2.jpg);
+	background-image:	url(../pics/lookD.jpg);
+}
+
+.look4 {
+	background-image:	url(../pics/lookL.jpg);
 }
 
 .meS {
@@ -160,12 +164,12 @@ span {
 
 .b1 {
 	float:				left;
-	background-image: url(../pics/bike.jpg);
+	background-image: url(../pics/decideH.jpg);
 	background-size:	cover;
-	height:				165px;
-	width:				165px;
-	margin-top:			40px;
-	margin-left:		200px;
+	height:				135px;
+	width:				135px;
+	margin-top:			10px;
+	margin-left:		300px;
 	color:				white;
 		-transition: background-image .2s ease-in-out;
    -moz-transition: background-image .2s ease-in-out;
@@ -173,8 +177,7 @@ span {
 }
 
 .b1:hover {
-	background-image: url(../pics/bikeH.jpg);
-
+	background-image: url(../pics/decide.jpg);
 }
 
 .b2 {
@@ -196,13 +199,13 @@ span {
 }
 
 .b3 {
-	background-image: 	url(../pics/decideH.jpg);
+	background-image: 	url(../pics/corin.jpg);
 	background-size: 	cover;
 	height:				135px;
 	width:				135px;
 	float:				left;
-	margin-top:			150px;
-	margin-left:		300px;
+	margin-top:			210px;
+	margin-left:		500px;
 		-transition: background-image .2s ease-in-out;
    -moz-transition: background-image .2s ease-in-out;
    -webkit-transition: background-image .2s ease-in-out;
@@ -210,27 +213,17 @@ span {
 }
 
 .b3:hover {
-	background-image: 	url(../pics/decide.jpg);
+	background-image: 	url(../pics/corinH.jpg);
 
 }
 
 .b4 {
-	background-image: 	url(../pics/decideH.jpg);
-	background-size: 	cover;
-	height:				135px;
-	width:				135px;
+	background-color:	blue;
+	height:				160px;
+	width:				160px;
+	margin-top:			-160px;
+	margin-left:		-570px;
 	float:				left;
-	margin-top:			150px;
-	margin-left:		300px;
-		-transition: background-image .2s ease-in-out;
-   -moz-transition: background-image .2s ease-in-out;
-   -webkit-transition: background-image .2s ease-in-out;
-
-}
-
-.b4:hover {
-	background-image: 	url(../pics/decide.jpg);
-
 }
 
 .thought {

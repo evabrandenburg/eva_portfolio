@@ -43,6 +43,7 @@ function lookB(){
     $( ".me" ).removeClass( "look2" );
     $( ".me" ).removeClass( "look3" );
     $( ".me" ).removeClass( "look1" );
+    $( ".me" ).removeClass( "look4" );
     $( ".me" ).addClass( "lookB" );
 }
 
@@ -53,6 +54,7 @@ function look1(){
     $( ".me" ).removeClass( "meS" );
 	$( ".me" ).removeClass( "look2" );
 	$( ".me" ).removeClass( "look3" );
+    $( ".me" ).removeClass( "look4" );
 	$( ".me" ).addClass( "look1" );
 }
 $(".b1").hover( look1 );
@@ -62,6 +64,7 @@ function look2(){
     $( ".me" ).removeClass( "meS" );
 	$( ".me" ).removeClass( "look1" );
 	$( ".me" ).removeClass( "look3" );
+    $( ".me" ).removeClass( "look4" );
 	$( ".me" ).addClass( "look2" );
 }
 
@@ -72,11 +75,23 @@ function look3(){
     $( ".me" ).removeClass( "meS" );
     $( ".me" ).removeClass( "look1" );
     $( ".me" ).removeClass( "look2" );
+    $( ".me" ).removeClass( "look4" );
     $( ".me" ).addClass( "look3" );
 }
 
 $(".b3").hover( look3 );
 $( ".b3" ).mouseout( meD );
+
+function look4(){
+    $( ".me" ).removeClass( "meS" );
+    $( ".me" ).removeClass( "look1" );
+    $( ".me" ).removeClass( "look2" );
+    $( ".me" ).removeClass( "look3" );
+    $( ".me" ).addClass( "look4" );    
+}
+
+$(".b4").hover( look4 );
+$( ".b4" ).mouseout( meD );
 
 function aboutH(){
     $( ".aboutH" ).addClass( "show" );
