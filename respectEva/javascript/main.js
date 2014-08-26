@@ -31,6 +31,7 @@ function meD(){
     $( ".me" ).removeClass( "lookB" );
     $( ".me" ).removeClass( "look2" );
     $( ".me" ).removeClass( "look3" );
+     $( ".me" ).removeClass( "look4" );
     $( ".me" ).removeClass( "look1" );
     $( ".me" ).addClass( "me" );
 }
