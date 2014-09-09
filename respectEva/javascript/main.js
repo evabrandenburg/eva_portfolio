@@ -1,6 +1,11 @@
 /* CURRENTLY IN: javascript/main.js */
 
-$(document).ready(function() {
+$(window).bind("load", function() {
+
+    // Animate loader off screen
+            $("#loader").animate({
+                top: -200
+            }, 1500);
 
     $('#fullpage').fullpage({
         verticalCentered: true,
